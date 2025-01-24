@@ -1,7 +1,5 @@
 console.log("tá rodando")
 
-// import fs from 'node:fs';
-
 const puppeteer = require("puppeteer");
 const fs = require('fs');
 
@@ -19,7 +17,7 @@ const fs = require('fs');
     const texto2 = texto.slice(0, -1)
     const examine = `_*${texto2}*_\n\n${comentario}`;
     console.log(examine);
-    fs.writeFileSync('../texto/mensagem.txt', examine)
+    fs.writeFileSync('texto/mensagem.txt', examine)
     await browser.close();
 })();
 

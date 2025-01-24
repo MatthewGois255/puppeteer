@@ -14,7 +14,7 @@ arquivo = open('texto/mensagem.txt', 'r')
 content = arquivo.read()
 print(content)
 
-# with open('texto/mensagem.txt', 'r') as arquivo:
+#with open('texto/mensagem.txt', 'r') as arquivo:
 #     arquivo.read()
 #     print(arquivo)
 
